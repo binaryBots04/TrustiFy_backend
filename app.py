@@ -14,7 +14,7 @@ mongo.init_app(app)
 
 CORS(app)
 
-app.register_blueprint(classify_bp)
+app.register_blueprint()
 app.register_blueprint(verify_bp)
 app.register_blueprint(overlay_bp)
 
